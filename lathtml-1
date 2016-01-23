@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Latihan HTML 1 -- Tugas</title>
+</head>
+<body>
+	<h2>Yang Harus Dilakukan Hari Ini</h1>
+	<ol>
+		<li>Pergi ke pasar</li>
+			<ul>
+				<li>Beli sayuran</li>
+				<li>Beli kertas</li>
+					<ol type="i">
+						<li>A4</li>
+						<li>Legall</li>
+					</ol>
+				<li>Beli tinta</li>
+			</ul>
+		<li>Buat tutorial HTML</li>
+		<li>Mengerjakan tugas kuliah</li>
+	</ol>
+</body>
+</html>
