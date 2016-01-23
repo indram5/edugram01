@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Latihan 2 Tugas Form</title>
+</head>
+<body>
+	<p><h2>FORM PEMESANAN BAJU ONLINE</h2></p>
+	<table cellpadding="10">
+		<tr>
+			<td>Username</td>
+			<td>:</td>
+			<td><input type="text" name="username" placeholder="masukan username anda"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="text" name="password" placeholder="masukan password anda"></td>
+		</tr>
+		<tr>
+			<td>Nama Lengkap</td>
+			<td>:</td>
+			<td><input type="text" name="nama" placeholder="masukan nama anda"></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>:</td>
+			<td><input type="text" name="email" placeholder="masukan email anda"></td>
+		</tr>
+		<tr>
+			<td>Agama</td>
+			<td>:</td>
+			<td>
+				<input type="checkbox" name="agama" value="islam" /> Islam
+				<br>
+				<input type="checkbox" name="agama" value="kristen" /> Kristen
+				<br>
+				<input type="checkbox" name="agama" value="hindu" /> Hindu
+				<br>
+				<input type="checkbox" name="agama" value="budha" /> Budha
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td>Nomor HP</td>
+			<td>:</td>
+			<td><input type="text" name="handphone" placeholder="masukan nomor HP anda"></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>:</td>
+			<td>
+				<input type="radio" name="gender" value="pria" /> Pria
+				<br>
+				<input type="radio" name="gender" value="wanita" /> Wanita
+			</td>
+		</tr>
+		<tr>
+			<td>Jenis Baju</td>
+			<td>:</td>
+			<td>
+				<select>
+					<option name="baju" selected>--Pilih Baju--</option>
+					<option value="jersey">Jersey Bola</option>
+					<option value="kaos">Kaos</option>
+					<option value="kaoskerah">Kaos Kerah</option>
+					<option value="kemeja">Kemeja</option>
+					<option value="muslim">Baju Muslim</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Komentar</td>
+			<td>:</td>
+			<td><textarea rows="5" cols="50" name="komentar" placeholder="silahkan ketikan komentar anda disini"></textarea></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>
+			<input type="submit" name="submit" value="Simpan">
+			<input type="reset" name="reset" value="Reset">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
